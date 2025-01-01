@@ -1,0 +1,49 @@
+.carousel-container {
+    width: 100%;
+    height: 500px; /* Adjust based on your requirement */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .carouseltImg{
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .carousel-text {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .carousel-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .carousel-desc {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+  }
+  

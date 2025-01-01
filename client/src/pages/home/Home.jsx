@@ -5,6 +5,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css";
 import axios from "axios";
 import { useLocation } from "react-router";
+// import Carousel from "../../components/carousel/Carousel";
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -17,9 +18,11 @@ export default function Home() {
     };
     fetchPosts();
   }, [search]);
+
   return (
     <>
       <Header />
+      {/* <Carousel items={posts} /> */}
       <div className="home">
         <Posts posts={posts} />
         <Sidebar />
